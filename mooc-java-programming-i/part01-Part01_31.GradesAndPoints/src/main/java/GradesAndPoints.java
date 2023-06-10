@@ -9,26 +9,19 @@ public class GradesAndPoints {
         int points = Integer.valueOf(scan.nextLine());
         if (points < 0) {
             System.out.println("Grade: impossible!");
-        }
-        else if (points <= 49) {
+        } else if (points <= 49) {
             System.out.println("Grade: failed");
-        }
-        else if (points <= 59) {
+        } else if (points <= 59) {
             System.out.println("Grade: 1");
-        }
-        elseif (points <= 69) {
+        } else if (points <= 69) {
             System.out.println("Grade: 2");
-        }
-        elseif (points <= 79) {
+        } else if (points <= 79) {
             System.out.println("Grade: 3");
-        }
-        elseif (points <= 89) {
+        } else if (points <= 89) {
             System.out.println("Grade: 4");
-        }
-        elseif (points <= 100) {
+        } else if (points <= 100) {
             System.out.println("Grade: 5");
-        }
-        else {
+        } else {
             System.out.println("Grade: incredible!");
         }
         scan.close();

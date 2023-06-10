@@ -11,11 +11,9 @@ public class LargerThanOrEqualTo {
         int second = Integer.valueOf(scan.nextLine());
         if (first > second) {
             System.out.println("Greater number is: " + first);
-        }
-        else if (first < second) {
+        } else if (first < second) {
             System.out.println("Greater number is: " + second);
-        }
-        else {
+        } else {
             System.out.println("The numbers are equal!");
         }
         scan.close();

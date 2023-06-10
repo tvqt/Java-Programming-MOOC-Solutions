@@ -11,8 +11,7 @@ public class Same {
         String second = scan.nextLine();
         if (first.equals(second)) {
             System.out.println("Same");
-        }
-        else {
+        } else {
             System.out.println("Different");
         }
         scan.close();

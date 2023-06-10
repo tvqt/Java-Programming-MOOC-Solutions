@@ -9,8 +9,7 @@ public class CheckingTheAge {
         int age = Integer.valueOf(scan.nextLine());
         if (age >= 0 && age <= 120) {
             System.out.println("OK");
-        }
-        else {
+        } else {
             System.out.println("Impossible!");
         }
         scan.close();

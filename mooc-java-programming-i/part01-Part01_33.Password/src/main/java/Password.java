@@ -9,8 +9,7 @@ public class Password {
         String password = scan.nextLine();
         if (password.equals("Caput Draconis")) {
             System.out.println("Welcome!");
-        }
-        else {
+        } else {
             System.out.println("Off with you!");
         }
         scan.close();

@@ -9,9 +9,9 @@ public class Positivity {
         int number = Integer.valueOf(scan.nextLine());
         if (number > 0) {
             System.out.println("The number is positive.");
-        }
-        else {
+        } else {
             System.out.println("The number is not positive.");
         }
+        scan.close();
     }
 }

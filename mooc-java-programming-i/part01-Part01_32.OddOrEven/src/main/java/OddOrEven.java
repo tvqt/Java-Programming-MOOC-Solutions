@@ -9,8 +9,7 @@ public class OddOrEven {
         int number = Integer.valueOf(scan.nextLine());
         if (number % 2 == 0) {
             System.out.println("Number " + number + " is even.");
-        }
-        else {
+        } else {
             System.out.println("Number " + number + " is odd.");
         }
         scan.close();
