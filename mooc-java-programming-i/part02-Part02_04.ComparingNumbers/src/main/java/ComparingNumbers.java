@@ -7,7 +7,13 @@ public class ComparingNumbers {
         Scanner scanner = new Scanner(System.in);
         int num1 = Integer.valueOf(scanner.nextLine());
         int num2 = Integer.valueOf(scanner.nextLine());
-        System.out.println(String.format("%d is %s than %d.", num1, num1 > num2 ? "greater" : num1 < num2 ? "less" : "equal", num2));  
+        if (num1 > num2) {
+            System.out.println(num1 + " is greater than " + num2 + ".");
+        } else if (num1 < num2) {
+            System.out.println(num1 + " is smaller than " + num2 + ".");
+        } else {
+            System.out.println(num1 + " is equal to " + num2 + ".");
+        }
         scanner.close();  
     }
 }
