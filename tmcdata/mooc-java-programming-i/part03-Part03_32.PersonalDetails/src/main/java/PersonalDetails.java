@@ -8,7 +8,7 @@ public class PersonalDetails {
         Scanner scanner = new Scanner(System.in);
         int sum = 0;
         int count = 0;
-        int longest = 0;
+        String longest = "";
         while (true) {
             String input = scanner.nextLine();
             if (input.equals("")) {
@@ -18,8 +18,8 @@ public class PersonalDetails {
             int age = Integer.valueOf(parts[1]);
             sum += age;
             count++;
-            if (parts[0].length() > longest) {
-                longest = parts[0].length();
+            if (parts[0].length() > longest.length()) {
+                longest = parts[0];
             }
         }
         System.out.println("Longest name: " + longest);
