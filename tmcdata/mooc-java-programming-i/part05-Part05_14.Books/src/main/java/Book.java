@@ -1,6 +1,4 @@
-
 public class Book {
-
     private String name;
     private int publicationYear;
 
@@ -17,4 +15,16 @@ public class Book {
         return publicationYear;
     }
 
+    @Override
+    public boolean equals(Object compared) {
+        if (this == compared) {
+            return true;
+        }
+        if (!(compared instanceof Book)) {
+            return false;
+        }
+        Book comparedBook = (Book) compared;
+        return this.name.equals(comparedBook.name) &&
+               this.publicationYear == comparedBook.publicationYear;
+    }
 }
