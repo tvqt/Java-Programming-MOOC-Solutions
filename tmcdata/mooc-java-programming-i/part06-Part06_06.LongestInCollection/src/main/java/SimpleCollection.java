@@ -19,4 +19,17 @@ public class SimpleCollection {
         return this.elements;
     }
 
+    public String longest() {
+        if (this.elements.isEmpty()) {
+            return null;
+        }
+
+        String longest = this.elements.get(0);
+        for (String element : this.elements) {
+            if (longest.length() < element.length()) {
+                longest = element;
+            }
+        }
+        return longest;
+    }
 }
