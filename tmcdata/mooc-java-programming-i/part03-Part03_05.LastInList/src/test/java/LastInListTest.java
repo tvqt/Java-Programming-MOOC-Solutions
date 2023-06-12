@@ -4,8 +4,6 @@ import fi.helsinki.cs.tmc.edutestutils.Points;
 import fi.helsinki.cs.tmc.edutestutils.ReflectionUtils;
 import java.lang.reflect.Method;
 import java.util.NoSuchElementException;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 import org.junit.*;
 import static org.junit.Assert.*;
 
