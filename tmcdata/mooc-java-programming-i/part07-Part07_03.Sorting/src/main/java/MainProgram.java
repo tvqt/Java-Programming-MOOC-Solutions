@@ -1,8 +1,5 @@
 import java.util.Arrays;
 public class MainProgram {
-
-    
-
     public int smallest(int[] array) {
         int smallest = array[0];
         for (int i = 0; i < array.length; i++) {
@@ -44,7 +41,8 @@ public class MainProgram {
     }
 
     public static void main(String[] args) {
-        int[] array = {3, 1, 5, 99, 3, 12};    
+        int[] array = {3, 1, 5, 99, 3, 12};
+        sort(array);   
     }
     
 }
