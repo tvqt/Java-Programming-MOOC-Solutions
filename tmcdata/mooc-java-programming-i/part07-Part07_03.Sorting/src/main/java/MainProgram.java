@@ -16,7 +16,7 @@ public class MainProgram {
     public static int indexOfSmallestFrom(int[] table, int startIndex) {
         int smallest = table[startIndex];
         int index = startIndex;
-        for (int i = startIndex; i < array.length; i++) {
+        for (int i = startIndex; i < table.length; i++) {
             if (table[i] < smallest) {
                 smallest = table[i]; 
                 index = i;

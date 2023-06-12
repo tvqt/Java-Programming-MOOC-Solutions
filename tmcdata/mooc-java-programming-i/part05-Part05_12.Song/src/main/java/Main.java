@@ -10,9 +10,5 @@ public class Main {
         if (jackSparrow.equals(anotherSparrow)) {
             System.out.println("Songs are equal.");
         }
-
-        if (jackSparrow.equals("Another object")) {
-            System.out.println("Strange things are afoot.");
-        }
     }
 }
